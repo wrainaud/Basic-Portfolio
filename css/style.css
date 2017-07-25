@@ -1,0 +1,95 @@
+
+* {
+  	/*box-sizing: border-box;*/
+  	/*text-align: center;*/
+}
+
+body {
+	/*font-size: 24px;*/
+	/*line-height: 32px;*/
+	/*color: #333;*/
+}
+
+header {
+	margin-left: 40px;
+  	height: 80px;
+  	width: 300px;
+ 	margin-top: 20px;
+  	background-color: #4aaaa5;
+  	border: 2px;
+  	border-color: #cccccc;
+  	text-align: center;
+  	font-size: 14px;
+
+}
+
+nav{
+	position: relative;
+	font-family: Helvetica;
+	padding: 20px;
+
+}
+
+h1{
+	padding: 20px;
+	font-family: Times;
+	color: #333;
+}
+
+h2{
+	padding: 20px;
+	font-family: Times;
+	color: #4aaaa5;
+	border-bottom: grey solid 2px;
+}
+
+h3{
+	padding: 0px;
+	font-family: Times;
+	color: #4aaaa5;
+	border-bottom: grey solid 2px;
+}
+
+section {
+	margin-bottom: 20px;
+	background: #ffffff;
+	border: black solid 2px;
+	border-color: #dddddd;
+	font-family: Arial;
+}
+
+#main {
+	width: 960px;
+	height: 960px;
+	background: url("images/wjr_images-12.jpeg");
+	overflow: auto;
+	border: 2px solid grey;
+	border-color: #dddddd;
+}
+
+
+#division {
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #6ea3da;
+}
+
+
+aside {
+	float: right;
+	width: 33%;
+	height: 100px;
+	padding: 20px;
+	margin-left: 30px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+footer {
+	border-top: 5px solid #4aaaa5;
+	padding: 20px;
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+	font-family: 'Helvetica Neue', serif;
+}
